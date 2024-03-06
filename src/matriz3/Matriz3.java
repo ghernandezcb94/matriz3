@@ -8,7 +8,7 @@ public class Matriz3 {
     public static void main(String[] args) {
         int n, x = 1, i, j, k;
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Dime el tamaño de la matriz: ");
+        System.out.print("Dime el tamanio de la matriz: ");
         n = teclado.nextInt();
 
         if (n < 2) { 
