@@ -3,14 +3,17 @@
 package matriz3;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Matriz3 {
     public static void main(String[] args) {
         int n, x = 1, i, j, k;
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Dime el tamanio de la matriz: ");
-        n = teclado.nextInt();
+        //System.out.print("Dime el tamanio de la matriz: ");
+        //n = teclado.nextInt();
 
+        n = Integer.parseInt(JOptionPane.showInputDialog("Dime el tamaño de la matriz:"));
+        
         if (n < 2) { 
             System.out.println("La matriz debe ser de al menos 2x2!");
         } else {
